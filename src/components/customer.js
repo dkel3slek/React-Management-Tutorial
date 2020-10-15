@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 class Customer extends React.Component{
     render(){
         return(
             <div>
-            <CustomerProfile image={this.props.image} name={this.props.name} id={this.props.id}/>
-            <CustomerInfo birthday={this.props.birthday} gender={this.props.gender} job={this.props.job}/>
+                <CustomerProfile image={this.props.image} name={this.props.name} id={this.props.id}/>
+                <CustomerInfo birthday={this.props.birthday} gender={this.props.gender} job={this.props.job}/>
             </div>
         )
     }
