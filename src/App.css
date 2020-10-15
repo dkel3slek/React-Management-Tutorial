@@ -1,0 +1,9 @@
+body {
+  background-color: darkgray;
+}
+
+#onOff {
+  width: 200px;
+  height: 50px;
+  font-size: 100%;
+}
